@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+div p {
+  text-align: justify;
+ 
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    max-width: 399px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+table p {
+  margin: auto;
+  font-size: 1em;
+}
+
+@media (max-width: 600px) {
+  table p {
+    font-size: 2.2vw;
+  }
+}
+
+iframe {
+  width: 100%;
+}
+
+td  {
+  border: 1px solid #000000;
+}
+
+tbody  {
+  width: 99%;
+
+}
+
+table {
+  width: 100%;
+  max-width: 399px;
+  padding: 0px;
+  border: 1px solid #000000;
+}
+
+table { 
+  font-family: 'Times New Roman', Times, serif; 
+  max-width: 100%;
+  overflow:  scroll; 
+  border-collapse: collapse; 
+}
+
+table td, table th { 
+  border: 3px solid rgb(61, 44, 44); 
+  padding: 3px 2px; 
+} 
+
+table tbody td { 
+  font-size: 17px; 
+} 
+
+table tr:nth-child(even) { 
+  background: #D0E4F5; 
+} 
+
+table p {
+  margin: auto;
+}
+
+table thead { 
+  background: #0B6FA4; 
+  border-bottom: 3px solid rgb(61, 44, 44);
+  text-align: center;
+} 
+
+table thead th { 
+  font-size: 17px; 
+  font-weight: bold; 
+  color: #FFFFFF;  
+  /*border-left: 2px solid #FFFFFF;*/ 
+} 
+
+table thead th:first-child { 
+  text-align: center; 
+} 
+table tfoot { 
+  font-size: 14px; 
+  font-weight: bold;
+   color: #333333; 
+   background: #D0E4F5; 
+   border-top: 3px solid #444444; 
+} 
+table tfoot td { 
+  font-size: 14px; 
 }
